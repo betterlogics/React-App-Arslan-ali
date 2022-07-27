@@ -1,0 +1,55 @@
+@media screen and (max-width:500px) {
+    .checkbtn{
+        display: block;
+        margin-left: 90%;
+    }
+    /* .text-light{
+        position: fixed;
+        justify-content: center;
+        
+} */
+.row .col-7{
+    height: 14pc;
+    width: 100% !important;
+    font-size: 14px;
+    flex-direction: column;
+}
+.text-center{
+    width: auto;
+}
+section{
+    justify-content: center;
+    margin-top: 24%;
+    grid-template-columns: 1fr;
+}
+.section-3 p{
+    font-size: 15px !important;
+}
+.section-3 input{
+    width: 116px;
+}
+ .section-3 .btn{
+    height: 27px !important;
+    font-size: 16px !important;
+    margin-right: 44px;
+}
+.section-4 .btn{
+    height: 27px !important;
+    font-size: 16px !important;
+    margin-right: 44px;
+}
+.section-4 p{
+    font-size: 15px !important;
+}
+.col-3 {
+    font-size: 15px;
+
+    width: 135px;
+}
+.col p{
+    font-size: 12px;
+}
+.col-lg-6 {
+   
+}
+}
