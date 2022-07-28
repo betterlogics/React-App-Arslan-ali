@@ -157,3 +157,7 @@ float: right;
 #checkbox{
     display: none;
 }
+.section-5 p{
+    width: 184%;
+    font-size: 64%;
+}
