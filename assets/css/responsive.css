@@ -1,13 +1,12 @@
-@media screen and (max-width:500px) {
-    .checkbtn{
-        display: block;
-        margin-left: 90%;
+@media screen and (max-width:800px) {
+    
+    form{
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-items: center;
+        font-size: 22px;
     }
-    /* .text-light{
-        position: fixed;
-        justify-content: center;
-        
-} */
+   
 .row .col-7{
     height: 14pc;
     width: 100% !important;
@@ -17,7 +16,7 @@
 .text-center{
     width: auto;
 }
-section{
+.section-3{
     justify-content: center;
     margin-top: 24%;
     grid-template-columns: 1fr;
@@ -25,18 +24,23 @@ section{
 .section-3 p{
     font-size: 15px !important;
 }
-.section-3 input{
+/* .section-3 input{
     width: 116px;
-}
+} */
  .section-3 .btn{
-    height: 27px !important;
-    font-size: 16px !important;
-    margin-right: 44px;
+    margin-right: -58px;
+    width: 13pc;
+    
+}
+
+.section-4{
+    justify-content: center;
+    margin-top: 24%;
+    grid-template-columns: 1fr;
 }
 .section-4 .btn{
-    height: 27px !important;
-    font-size: 16px !important;
-    margin-right: 44px;
+    margin-right: -58px;
+    width: 13pc;
 }
 .section-4 p{
     font-size: 15px !important;
@@ -49,7 +53,33 @@ section{
 .col p{
     font-size: 12px;
 }
-.col-lg-6 {
+.section-5 p{
+    width: 318%;
+    font-size: 14px;
+}
+
+.card{
+    background-color: rgb(255 182 59);
+    text-align: start;
+    width: 18pc;
+    height: 16pc;
+    
+}
+.text-white{
+  width: 97% !important;
+}
+.text-white .btn{
+    width: 60% !important;
+
+  }
+  .text-white{
+    position: relative;
+    left: 0%;
+    top: 6pc;
+
+}
+
+}
+/* @media screen and (max-width:1000px) {
    
-}
-}
+} */
